@@ -16,9 +16,6 @@ type Logger interface {
 type LoggerOptions struct {
 }
 
-// fileWriteAheadLogger is an implementation of the logger interface that
-// takes advantage of etcd's wal pacakge to write a stream of structured log
-// events to a directory
 type loggerImpl struct {
 	log *zap.Logger
 }

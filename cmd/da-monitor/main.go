@@ -16,6 +16,9 @@ func main() {
 
 	for true {
 		pingSite("https://google.com", l)
+		pingSite("https://microsoft.com", l)
+		pingSite("https://amazon.com", l)
+		pingSite("https://charter.com", l)
 
 		time.Sleep(5 * time.Second)
 	}
